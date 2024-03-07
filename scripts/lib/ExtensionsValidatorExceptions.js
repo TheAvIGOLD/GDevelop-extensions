@@ -424,6 +424,16 @@ const extensionsAllowedProperties = {
       runtimeSceneAllowedProperties: [],
       javaScriptObjectAllowedProperties: [],
     },
+    Sprite3D: {
+      gdjsAllowedProperties: [
+        '__sprite3DExtension',
+        'CustomRuntimeObject',
+        'Polygon',
+      ],
+      gdjsEvtToolsAllowedProperties: [],
+      runtimeSceneAllowedProperties: [],
+      javaScriptObjectAllowedProperties: [],
+    },
     Sticker: {
       gdjsAllowedProperties: [
         '_stickerExtension',
